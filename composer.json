@@ -1,0 +1,33 @@
+{
+    "name": "firith/laravel-nore",
+    "description": "Nore CMS",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Firith\\Nore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Balázs",
+            "email": "42.simon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^8.17|^9.0",
+        "illuminate/support": "^8.17|^9.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^v8.17|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Firith\\Nore\\NoreServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
