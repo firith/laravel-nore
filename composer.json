@@ -16,10 +16,8 @@
     "require": {
         "php": "^8.0",
         "illuminate/contracts": "^8.17|^9.0",
-        "illuminate/support": "^8.17|^9.0"
-    },
-    "require-dev": {
-        "laravel/framework": "^v8.17|^9.0"
+        "illuminate/support": "^8.17|^9.0",
+        "filament/forms": "^v2.10"
     },
     "extra": {
         "laravel": {
